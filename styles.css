@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    position: relative;
+    text-align: center;
+    background-color: hsl(0, 0%, 12%);
+    color: white;
+    width: 25%;
+    display: grid;
+    place-items: center;
+    margin-top: 100px;
+    border-radius: 10px;
+    height: 700px;
+    
+}
+
+.devphoto {
+    height: 200px;
+    width: 200px;
+    border-radius: 400px;
+    
+}
+
+.header {
+    font-family: "Inter", sans-serif;
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: px;
+}
+
+.h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+    margin-top: -25px;
+    margin-bottom: -1px;
+}
+
+.paragraph {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+.listlinks {
+    font-family: "Inter", sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 400px;
+    height: 50px;   
+    border-radius: 15px;
+    text-align: center;
+    
+}
+
+.one a {
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+    display: block;
+    text-align: center; 
+}
+
+.buttons:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+.listlinks {
+    list-style: none; /* Remove o estilo de lista */
+    padding: 0;
+    margin-top: -40px;
+}
+
+.buttons {
+    margin-top: 0px;
+    display: block;
+    padding: 10px 20px; 
+    margin: 5px; 
+    background-color: hsl(0, 0%, 20%); 
+    color: white; 
+    text-align: center; 
+    text-decoration: none; 
+    border-radius: 10px; 
+    transition: background-color 0.3s; 
+    margin: 10px;
+}
+
+
